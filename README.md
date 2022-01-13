@@ -1,23 +1,19 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Improving my skills by learning to use github.
 
-{Provide a description of your software}
+Basic Program on C++ that prints Hello World! to console.
 
-{Describe your purpose for creating this software.}
+This was done to test my C++ compiler on VS Code
 
-{Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
 
 [Hello World C++ Demo Video] https://youtu.be/qi3gzKgBhbs
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used}
+VS Code IDE
+C++ Language
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+None for this project.
