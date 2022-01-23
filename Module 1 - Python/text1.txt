@@ -1,3 +1,0 @@
-"""You have been set up on a blind date by your good friend Sally.
-You are on a long streak of bad dates and are hoping that this could be
-the one to end it."""
