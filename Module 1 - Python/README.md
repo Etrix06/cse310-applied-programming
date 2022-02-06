@@ -6,9 +6,9 @@ I wrote a simple text based adventure that runs on the console.
 
 The reason I wrote this software was to learn the syntax of Python.  To learn the variables, functions, expressions, conditionals, loops, classes, and data structures.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+
+https://youtu.be/FvB6JMNX2OI
 
 # Development Environment
 
