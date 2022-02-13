@@ -107,7 +107,7 @@ text19 = "\"I know! I love McDonalds.\" "
 
 text20 = "\nThe waitress shows back up, \"Are you guys ready to order?\" She says.\n"
 
-text21 = "\n\nAnd for the first time this night you though to yourself, \n" 
+text21 = "\n\nAnd for the first time this night you think to yourself, \n" 
 text22 = "\"This might actually turn into a good date.\"\n"
 text23 = "You went on to have a lovely date.\n"
 
