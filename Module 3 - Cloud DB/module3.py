@@ -26,16 +26,22 @@ while quit == False:
     print(" 5: QUIT")
     choice = input("Please enter number and ENTER: ")
     print()
+
+    # The QUIT choice
     if choice == "5":
         print("You Chose to QUIT")
         quit = True
         break
+
+    # Display the contents of database
     elif choice == "1":
         viewDB = collection.find({})
         print("Currently in MongoDB.")
         for x in viewDB:
             print(x)
         print()
+
+    # Adds a document to the Database
     elif choice == "2":
         id = randint(1,3000)
         name = input("Please enter Player Name then hit ENTER: ")
@@ -44,6 +50,8 @@ while quit == False:
         post = {"_id": id, "name": name, "Character": character, "Character Race": race}
         collection.insert_one(post)
         print("Updating MongoDB...")
+
+    # Updates contents of Database
     elif choice == "3":
         print("How do you want to find your info, by ")
         print("1: Player Name")
@@ -80,6 +88,8 @@ while quit == False:
         findInDB = collection.find({findBy: name})
         for result2 in findInDB:
             print(result2)
+
+    # Deletes a document in Database
     elif choice == "4":
         viewDB = collection.find({})
         print("Currently in MongoDB.")
@@ -93,8 +103,6 @@ while quit == False:
         resultsDel = collection.find_one({"_id": delId})
         print(resultsDel)
         print()
-        #for result in resultsDel:
-        #    print(result)
         answer = input("Please type y or n then hit ENTER: ")
         if answer == "y" or answer == "Y":
             resultsDel = collection.delete_one({"_id": delId})
@@ -102,33 +110,6 @@ while quit == False:
         else:
             print("Not Deleted\n")
 
-
-
-
-      
-
-
-    #post = {"_id": 1, "name": "Erik", "age": 41}
-    #post1 = {"_id": 3, "name": "Erik", "Character": "Montague", "Character Race": "Half-Elf"}
-    #post2 = {"_id": 4, "name": "Quentin", "Character": "Darvek", "Character Race": "Dwarf"}
-
-    
-
-    #collection.insert_one(post)
-    #collection.insert_many([post1, post2])
-    #results = collection.find({"Character": "Darvek"})
-    #results = collection.find_one({"_id":0})
-
-    #results = collection.delete_one({"_id":1})
-    #results = collection.find({})
-    #results = collection.update_one({"_id":0}, {"$set":{"hobby": "Dungeons and Dragons"}})
-
-
-    #for result in results:
-    #    print(result["name"]) 
-
-
-    
 
     print("Do you wish to continue?")
     exitChoice = input("Type y to continue or type n or q to quit then ENTER: ")
