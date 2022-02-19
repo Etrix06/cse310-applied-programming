@@ -25,7 +25,6 @@ The program was written in Python and I used Pymongo to access MongoDB
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * https://www.mongodb.com/
 * https://www.w3schools.com/
 
