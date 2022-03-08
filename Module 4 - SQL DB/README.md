@@ -9,7 +9,7 @@ to the database where it can access the info.  It can then be added to, updated,
 
 I wanted to learn how to access the database from my program as well as to have a useful way to keep my food storage inventoried and up to date.
 
-<Youtube link>
+Youtube link: https://youtu.be/eU1CYabPwgM
 
 
 # SQL Relational Database
