@@ -3,10 +3,13 @@
 {% block content %}
 
 <h1>Hello {{name}}!</h1>
+<h2>Welcome to the Session Scheduler</h2>
 
-<form action="add">
-    Enter 1st number : <input type="text" name="num1"><br>
-    Enter 2nd number : <input type="text" name="num2"><br>
+<form action="add_info">
+    Enter your name ------------------------- : <input type="text" name="name"><br>
+    Enter your campaign name ------------- : <input type="text" name="campaign"><br>
+    Enter date you want to play mm/dd/yy : <input type="text" name="date"><br>
+    
     <input type="submit">
 
 </form>

@@ -2,6 +2,13 @@
 
 {% block content %}
 
-    Result : {{result}}
+<h1>You are signed up!</h1>
+
+    <h3> Name : {{name}} </h3>
+    <h3> Campaign Name: {{campaign}} </h3>
+    <h3> Date: {{date}} </h3>
+
+    <a href="javascript:history.go(-1)">Back</a>
+    <!--<a href="{{request.META.HTTP_REFERER|escape}}">Back</a>-->
 
 {% endblock %}
